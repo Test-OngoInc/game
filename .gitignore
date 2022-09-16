@@ -1,2 +1,7 @@
 bin
 *-build
+
+# FIXME temporary
+proj.android
+cocos2d
+placeholder.keystore
