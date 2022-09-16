@@ -11,9 +11,9 @@ cd <to where you want to clone this repo>
 
 git clone https://github.com/cocos2d/cocos2d-x.git
 
+cd cocos2d-x
 python2 download-deps.py
 
-cd cocos2d-x
 git submodule update --init
 git submodule update
 ```
@@ -32,7 +32,7 @@ Compile and run the game:
 git clone git@github.com:argnux/game.git # to clone this repository
 cd game
 
-cocos compile -s . -p linux -m release -o ./bin # to build
+cocos compile -s . -p linux -m release -o ./bin # to build on linux platform
 
 ./bin/TestGame          # just run
 cocos run -s . -p linux # build and run
